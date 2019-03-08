@@ -2,11 +2,3 @@ Implementing
 1.Client side load balancing- Netflix ribbon
 2.Server Side Load balancing- Zuul
 
-working on Implementing Hystrix in poc.
-
-working on static_code_service migration.
-Controllers and mapper.
-working on static_code_service migration.
-controller and mapper.
-working on static_code_service migration.
-Swagger documentation.
