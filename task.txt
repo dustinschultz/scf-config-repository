@@ -1,66 +1,12 @@
-		An Introduction to Pivotal Cloud Architecture 
-*Understanding Traditional IT provisioning, IaaS and PaaS. 
-*Evolution of Cloud Architecture and Industry Trends 
-* Basics of Cloud Foundry
+Implementing
+1.Client side load balancing- Netflix ribbon
+2.Server Side Load balancing- Zuul
 
-			
-		*Cloud Native Apps & 12Factor App 
-*Methodology for Building SaaS apps 
-*Elastic Runtime Architecture. *PCF - High Availability
+working on Implementing Hystrix in poc.
 
-			
-		*Working on CF CLI commands. *Deploy pre-existing Application to PCF Org. 
-*Obtain Logs, Debug deployment Issues. 
-*Scaling up the application with more instances.
-
-			
-		*Cloud Native Apps. *Managed Services
-
-			
-		*Binding the service Instances with application-services. 
-*Environment Variables - VCAP_Services 
-*User Provided Service Instances
-
-
-			
-		Pivotal Cloud Foundry 1. SERVICES * Cloud Native Apps. * Managed Services. * User Provided Service Instances. 2. Manifests
-
-			
-		1.Application security Group 2.Log drain
-
-			
-		1. Blue-Green Deployments 2. Microservices *Monolith Cloud native Application and Microservices Application
-
-			
-		Builpack API and Service brokers API.
-
-
-			
-		PCF : 1. CONTINUOUS DELIVERY and tools. 2. Route Service and its working. 3. File System as a Service
-
-			
-		Spring Cloud Config - poc on Config server and deploying it on PCF.
-
-			
-		Spring cloud Services for PCF: 1. poc on Eureka Server
-
-			
-		Spring cloud Services for PCF: 1. Hystrix
-
-			
-		Working on Microservices poc and deploying it on PCF using Different accounts.
-
-			
-		Learning Spring cloud netflix Eureka.
-
-			
-		1. Spring cloud gateway 2. spring cloud sleuth
-
-			
-		working on microservices poc.
-
-			
-		working on microservices poc.
-
-			
-		working on microservices poc.
+working on static_code_service migration.
+Controllers and mapper.
+working on static_code_service migration.
+controller and mapper.
+working on static_code_service migration.
+Swagger documentation.
