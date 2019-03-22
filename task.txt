@@ -1,1 +1,11 @@
 
+19-March
+1.	Implementing Spring Data JPA  - Creating JPQL and Native SQL query
+20-march
+1. Implementing Spring Data JPA  - Creating JPQL and Native SQL query.
+2. IIB to Spring Boot Migration - Analyzing flow in BenefitDataServices.
+
+21march
+1.	Implementing Spring Data JPA – created custom repository class to separate native SQL queries.
+22 march 
+1.	Updated the WAS to spring boot Migration Implementation Document.
