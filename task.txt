@@ -1,1 +1,15 @@
 
+1.	IIB service to Spring Boot Migration.
+•	Testing the Implemented service with request and response.
+
+1.	IIB service to Spring Boot Migration.
+•	Implemented Spring JDBC - jdbcTemplate and namedParameterJdbcTemplate
+
+1.	IIB service to Spring Boot Migration.
+•	Creating entities and DAO class
+•	Implementing Spring JDBC
+
+1.	IIB service to Spring Boot Migration.
+•	Creating entities and DAO class.
+
+1.	IIB service to Spring Boot Migration.
