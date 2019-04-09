@@ -1,15 +1,41 @@
+package demo.mq.pcf.consumer.config;
 
-1.	IIB service to Spring Boot Migration.
-•	Testing the Implemented service with request and response.
+import java.util.HashMap;
+import java.util.Map;
 
-1.	IIB service to Spring Boot Migration.
-•	Implemented Spring JDBC - jdbcTemplate and namedParameterJdbcTemplate
+import org.springframework.amqp.rabbit.connection.ConnectionFactory;
+import org.springframework.amqp.rabbit.core.RabbitTemplate;
+import org.springframework.amqp.support.converter.ClassMapper;
+import org.springframework.amqp.support.converter.DefaultClassMapper;
+import org.springframework.amqp.support.converter.Jackson2JsonMessageConverter;
+import org.springframework.amqp.support.converter.MessageConverter;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 
-1.	IIB service to Spring Boot Migration.
-•	Creating entities and DAO class
-•	Implementing Spring JDBC
+import demo.mq.pcf.consumer.model.Order;
 
-1.	IIB service to Spring Boot Migration.
-•	Creating entities and DAO class.
+@Configuration
+public class RabbitMqConfig {
 
-1.	IIB service to Spring Boot Migration.
+	@Bean
+	public MessageConverter jsonMessageConverter () {
+		Jackson2JsonMessageConverter jsonMessageConverter = new Jackson2JsonMessageConverter();
+		jsonMessageConverter.setClassMapper(classMapper());
+		return jsonMessageConverter;
+	}
+	
+	@Bean
+	public RabbitTemplate rabbitTemplate(ConnectionFactory connectionFactory) {
+		RabbitTemplate template = new RabbitTemplate(connectionFactory);
+		template.setMessageConverter(jsonMessageConverter());
+		return template;
+	}
+
+	private DefaultClassMapper classMapper() {
+		DefaultClassMapper classMapper = new DefaultClassMapper();
+		Map<String, Class<?>> idClassMapping = new HashMap<>();
+		idClassMapping.put("demo.mq.pcf.producer.model.Order", Order.class);
+		classMapper.setIdClassMapping(idClassMapping);
+		return classMapper;
+	}
+}
