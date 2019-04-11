@@ -1,1 +1,21 @@
 
+@Scheduled(fixedRate = 1000)
+	private void produce() {
+		theLogger.info(" Publishing the Customer Order");
+		Order order = this.getOrder();
+		rabbitTemplate.convertAndSend(EXCHANGE, ROUTING_KEY, order);
+	}
+	
+	private Order getOrder() {
+		List<Item> orderItemList = new ArrayList<>();
+        Item item1 = new Item("Phone", 1);
+        orderItemList.add(item1);
+
+        Item item2 = new Item("SIM", 1);
+        orderItemList.add(item2);
+
+        Item item3 = new Item("Charger", 1);
+        orderItemList.add(item3);
+
+        return new Order("My Customer", new Date(), "MA", orderItemList);
+	}
