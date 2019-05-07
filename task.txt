@@ -1,1 +1,41 @@
 
+OnBoarding KT and Exploring Services Delivery Projects
+Exploring IIB existing framework for understanding
+Exploring IIB Nodes and common modules
+An Introduction to Pivotal Cloud Architecture - Understanding Traditional IT provisioning, IaaS and PaaS - Evolution of Cloud Architecture and Industry Trends - Basics of Cloud Foundry
+Cloud Native Apps & 12Factor App - Methodology for Building SaaS apps - Elastic Runtime Architecture -PCF - High Availability
+Working on CF CLI commands - Deploy pre-existing Application to PCF Org - Obtain Logs, Debug deployment Issues - Scaling up the application with more instances
+Binding the service Instances with application-services - Environment Variables - VCAP_Services - User Provided Service Instances - Cloud Native Apps - Managed Services
+Exploring on PCF - Cloud Native Services - Managed Services - User Provider Service Instance
+Exploring on Build Pack - Service Broker API - Application security group - Blue Green Deployment - Microservices
+Exploring Spring cloud netflix Eureka - Spring cloud Gateway - Spring cloud sleath
+PCF : CONTINUOUS DELIVERY and tools. - Route Service and its working. - File System as a Service
+Spring cloud Services for PCF - Eureka - Hystrix
+Micro services POC and deploying it on different servers
+Exploring Spring cloud netflix Eureka - Spring cloud Gateway - Spring cloud sleath
+Micro services POC
+Microservices POC - Netflix zuul API gateway - Spring cloud with Netflix Ribbon- Spring cloud sleath
+Dynamic Scaling with combination of Ribbon, Feign and Naming Server - Deploying Config Service in PCF
+Introduction to Docker & Containers  - VMware, Container Demo
+Microservices Poc a. Development of 'Organization service' b. Junit Test cases for 'Department Service'
+Microservices Poc a. Spring cloud zookeeper - service discovery and configuration with zookeeper.
+Documenting Data Service in WAS to SpringBoot Migration - DAO Class changes.
+Documenting Data Service in WAS to SpringBoot Migration - Configuration and Common Files Changes.
+Documenting Non-Data Service in WAS to SpringBoot Migration.
+Documenting Data Service in WAS to SpringBoot Migration- Ibatis to MyBatis Conversion.
+Documenting Data Service in WAS to SpringBoot Migration - DAO Class changes.
+Documenting Data Service in WAS to SpringBoot Migration - Configuration and Common Files Changes.
+static_code_service migration
+POC on Load Balancing and Hystrix
+Spring Cloud Concepts 
+Static_code_service to Spring Boot Migration 
+IIB to Spring Boot Migration 
+Analyzing ORM Framework 
+Implementing Spring Data JPA 
+IIB to Spring Boot Migration 
+Documentation Update 
+IIB to Spring Boot Migration - Spring Data JPA repository for Member_Rights_Data_Service
+IIB to Spring Boot Migration 
+IIB to Spring Boot Migration
+IIB to Spring Boot Migration
+Swagger creation for MemberInformation REST service
